@@ -1,0 +1,31 @@
+{
+    "API_KEY":"AIzaSyAMw1otSb1Tuh6Qe81Eo799bNSO55cqtTI",
+    "SEARCH_ENGINE_ID":"59dddcc6d7ae4afdd",
+    "OpenAi_Key":"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",
+    "windowSize":5,
+    "maxDocumentSize":10000,
+    "relationType":
+    [
+        {"Relation":"schools_attended",
+            "Subject": ["PERSON"],
+            "Object":["ORGANIZATION"],
+            "GPT3-Prompt": "Given a sentence, extract all instances of following relationship types as possible: SCHOOLS_ATTENDED WHERE SCHOOL IS EDUCATIONAL INSTITUTE. Output:[(PERSON,SCHOOl)] Sentence:"
+        },
+        {"Relation":"employee_of",
+          "Subject": ["PERSON"],
+          "Object":["ORGANIZATION"],
+          "GPT3-Prompt": "Given a sentence, extract all instances of following relationship types as possible: Employee_of(SUCH THAT PERSON IS BEING EMPLOYED BY COMPANY OR PERSON WORKS AT COMPANY) . Output:Array of [(PERSON,COMPANY)] Sentence:"
+        },
+        {"Relation":"cities_of_residence",
+            "Subject": ["PERSON"],
+            "Object":["LOCATION", "CITY", "STATE_OR_PROVINCE","COUNTRY"],
+            "GPT3-Prompt": "Given a sentence, extract all instances of following relationship types as possible: relationship type:  PERSON_LIVES_IN_LOCATION Output:Array of  [(PERSON,PLACE)] Sentence:"
+        },
+        {
+        "Relation":"top_members/employees",
+        "Subject": ["ORGANIZATION"],
+        "Object":["PERSON"],
+        "GPT3-Prompt": "Given a sentence, extract all instances of following relationship types as possible: relationship type: COMPANY_EMPLOYEE SUCH THAT COMPANY AND EMPLOYEE ARE NOUNOutput:Array of  [(ORGANIZATION,PERSON)] Sentence:"
+        }
+    ]
+}

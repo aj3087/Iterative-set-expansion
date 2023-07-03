@@ -1,0 +1,570 @@
+Parameters:
+Client key	= AIzaSyAMw1otSb1Tuh6Qe81Eo799bNSO55cqtTI
+Engine key	= 59dddcc6d7ae4afdd
+OpenAi key	= ‘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’
+Method	= -spanbert
+Relation	= employee_of
+Threshold	= 0.7
+Query	= bill gates microsoft
+# of Tuples	= 10
+
+========== Iteration: 0 - Query:bill gates microsoft ==========
+URL ( 1 / 10): https://en.wikipedia.org/wiki/Bill_Gates
+Fetching text from url ...
+Trimming webpage content from 48616 to 10000 characters
+Webpage length (num characters): 10000
+Annotating the webpage using spacy...
+Extracted 79 sentences. Processing each sentence one by one to check for presence of right pair of named entity types; if so, will run the second pipeline ...
+Loading pre-trained spanBERT from ./pretrained_spanbert
+length: 1
+Loading pre-trained spanBERT from ./pretrained_spanbert
+length: 1
+	 == Extracted Relation ==
+Input tokens: ['he', 'and', 'Allen', 'founded', 'Microsoft', 'in', 'Albuquerque', ',']
+Output Confidence: 0.98816776 ; Subject: Allen ;Object: Microsoft
+Adding to set of Extracted relations
+====================================
+Loading pre-trained spanBERT from ./pretrained_spanbert
+length: 3
+Loading pre-trained spanBERT from ./pretrained_spanbert
+length: 1
+Loading pre-trained spanBERT from ./pretrained_spanbert
+length: 3
+Loading pre-trained spanBERT from ./pretrained_spanbert
+length: 3
+	 == Extracted Relation ==
+Input tokens: ['he', 'was', 'surpassed', 'by', 'Amazon', 'founder', 'and', 'CEO', 'Jeff', 'Bezos', ',', 'who', 'had', 'an', 'estimated', 'net', 'worth', 'of', 'US$', '90.6billion', 'compared', 'to', 'Gates', "'s", 'net', 'worth', 'of', 'US$', '89.9billion', 'at', 'the', 'time.[16', ']']
+Output Confidence: 0.9908213 ; Subject: Jeff Bezos ;Object: Gates
+Adding to set of Extracted relations
+====================================
+Loading pre-trained spanBERT from ./pretrained_spanbert
+length: 1
+Loading pre-trained spanBERT from ./pretrained_spanbert
+length: 1
+Processed 35 / 79 sentences
+Loading pre-trained spanBERT from ./pretrained_spanbert
+length: 3
+Loading pre-trained spanBERT from ./pretrained_spanbert
+length: 20
+Processed 40 / 79 sentences
+Loading pre-trained spanBERT from ./pretrained_spanbert
+length: 3
+Processed 45 / 79 sentences
+Loading pre-trained spanBERT from ./pretrained_spanbert
+length: 1
+Loading pre-trained spanBERT from ./pretrained_spanbert
+length: 3
+Loading pre-trained spanBERT from ./pretrained_spanbert
+length: 1
+Loading pre-trained spanBERT from ./pretrained_spanbert
+length: 1
+Processed 55 / 79 sentences
+Loading pre-trained spanBERT from ./pretrained_spanbert
+length: 1
+	 == Extracted Relation ==
+Input tokens: ['Ballmer', 'succeeded', 'Gates', 'as', 'Microsoft', "'s", 'CEO', 'and', 'maintained', 'that', 'position', 'from', '2000', 'until', 'his', 'resignation', 'in', '2014.[45][46', ']']
+Output Confidence: 0.99575186 ; Subject: Ballmer ;Object: Microsoft
+Adding to set of Extracted relations
+====================================
+Loading pre-trained spanBERT from ./pretrained_spanbert
+length: 1
+Loading pre-trained spanBERT from ./pretrained_spanbert
+length: 1
+Processed 60 / 79 sentences
+Loading pre-trained spanBERT from ./pretrained_spanbert
+length: 10
+Loading pre-trained spanBERT from ./pretrained_spanbert
+length: 3
+Loading pre-trained spanBERT from ./pretrained_spanbert
+length: 1
+Loading pre-trained spanBERT from ./pretrained_spanbert
+length: 5
+	 == Extracted Relation ==
+Input tokens: ['and', 'Gates', 'took', 'a', 'leave', 'of', 'absence', 'from', 'Harvard', 'to', 'work', 'with', 'him', 'at', 'MITS', 'in', 'November', '1975', '.']
+Output Confidence: 0.6641727 ; Subject: Gates ;Object: Harvard
+Adding to set of Extracted relations
+====================================
+	 == Extracted Relation ==
+Input tokens: ['and', 'Gates', 'took', 'a', 'leave', 'of', 'absence', 'from', 'Harvard', 'to', 'work', 'with', 'him', 'at', 'MITS', 'in', 'November', '1975', '.']
+Output Confidence: 0.80464137 ; Subject: Gates ;Object: MITS
+Adding to set of Extracted relations
+====================================
+Processed 70 / 79 sentences
+Loading pre-trained spanBERT from ./pretrained_spanbert
+length: 1
+Loading pre-trained spanBERT from ./pretrained_spanbert
+length: 1
+Processed 75 / 79 sentences
+Extracted annotations for 5 out of total 79 sentences
+{('Gates', 'MITS', 0.80464137), ('Allen', 'Microsoft', 0.98816776), ('Jeff Bezos', 'Gates', 0.9908213), ('Gates', 'Harvard', 0.6641727), ('Ballmer', 'Microsoft', 0.99575186)}
+value: 0.80464137
+value: 0.98816776
+value: 0.9908213
+value: 0.6641727
+value: 0.99575186
+Relations extracted from this website:4 (Overall: 4)
+URL ( 2 / 10): https://www.britannica.com/biography/Bill-Gates
+Fetching text from url ...
+Webpage length (num characters): 5919
+Annotating the webpage using spacy...
+Extracted 41 sentences. Processing each sentence one by one to check for presence of right pair of named entity types; if so, will run the second pipeline ...
+Loading pre-trained spanBERT from ./pretrained_spanbert
+length: 1
+	 == Extracted Relation ==
+Input tokens: ['Bill', 'Gates', 'cofounded', 'Microsoft', 'Corporation', ',']
+Output Confidence: 0.9180271 ; Subject: Bill Gates ;Object: Microsoft Corporation
+Adding to set of Extracted relations
+====================================
+Loading pre-trained spanBERT from ./pretrained_spanbert
+length: 1
+Processed 5 / 41 sentences
+Loading pre-trained spanBERT from ./pretrained_spanbert
+length: 1
+Loading pre-trained spanBERT from ./pretrained_spanbert
+length: 3
+	 == Extracted Relation ==
+Input tokens: ['Bill', 'Gates', 'founded', 'the', 'software', 'company', 'Microsoft', 'Corporation', 'with', 'his', 'friend', 'Paul', 'Allen', '.']
+Output Confidence: 0.98681915 ; Subject: Bill Gates ;Object: Microsoft Corporation
+Adding to set of Extracted relations
+====================================
+Loading pre-trained spanBERT from ./pretrained_spanbert
+length: 3
+	 == Extracted Relation ==
+Input tokens: ['Bill', 'Gates', ',', 'in', 'full', 'William', 'Henry', 'Gates', 'III', ',', '(', 'born', 'October', '28', ',', '1955', ',', 'Seattle', ',', 'Washington', ',', 'U.S.', ')', ',', 'American', 'computer', 'programmer', 'and', 'entrepreneur', 'who', 'cofounded', 'Microsoft', 'Corporation', ',']
+Output Confidence: 0.97735405 ; Subject: Bill Gates ;Object: Microsoft Corporation
+Adding to set of Extracted relations
+====================================
+	 == Extracted Relation ==
+Input tokens: ['in', 'full', 'William', 'Henry', 'Gates', 'III', ',', '(', 'born', 'October', '28', ',', '1955', ',', 'Seattle', ',', 'Washington', ',', 'U.S.', ')', ',', 'American', 'computer', 'programmer', 'and', 'entrepreneur', 'who', 'cofounded', 'Microsoft', 'Corporation', ',']
+Output Confidence: 0.99106133 ; Subject: William Henry Gates III ;Object: Microsoft Corporation
+Adding to set of Extracted relations
+====================================
+Loading pre-trained spanBERT from ./pretrained_spanbert
+length: 1
+Loading pre-trained spanBERT from ./pretrained_spanbert
+length: 6
+Processed 15 / 41 sentences
+Processed 20 / 41 sentences
+Loading pre-trained spanBERT from ./pretrained_spanbert
+length: 1
+Processed 30 / 41 sentences
+Loading pre-trained spanBERT from ./pretrained_spanbert
+length: 1
+	 == Extracted Relation ==
+Input tokens: ['Gates', 'relinquished', 'day', '-', 'to', '-', 'day', 'oversight', 'of', 'Microsoft', 'in', 'June', '2008although', 'he', 'remained', 'chairman', 'of', 'the', 'boardin', 'order', 'to', 'devote', 'more', 'time', 'to', 'the', 'Bill', '&']
+Output Confidence: 0.9901327 ; Subject: Gates ;Object: Microsoft
+Adding to set of Extracted relations
+====================================
+Processed 40 / 41 sentences
+Extracted annotations for 5 out of total 41 sentences
+{('Bill Gates', 'Microsoft Corporation', 0.98681915), ('Bill Gates', 'Microsoft Corporation', 0.9180271), ('Bill Gates', 'Microsoft Corporation', 0.97735405), ('William Henry Gates III', 'Microsoft Corporation', 0.99106133), ('Gates', 'Microsoft', 0.9901327)}
+value: 0.98681915
+value: 0.9180271
+value: 0.97735405
+value: 0.99106133
+value: 0.9901327
+Relations extracted from this website:3 (Overall: 6)
+URL ( 3 / 10): https://twitter.com/BillGates
+Fetching text from url ...
+Webpage length (num characters): 301
+Annotating the webpage using spacy...
+Extracted 4 sentences. Processing each sentence one by one to check for presence of right pair of named entity types; if so, will run the second pipeline ...
+Extracted annotations for 0 out of total 4 sentences
+set()
+Relations extracted from this website:0 (Overall: 6)
+URL ( 4 / 10): https://news.microsoft.com/2020/03/13/microsoft-announces-change-to-its-board-of-directors/
+Fetching text from url ...
+URL ( 5 / 10): https://www.forbes.com/profile/bill-gates/
+Fetching text from url ...
+Webpage length (num characters): 161
+Annotating the webpage using spacy...
+Extracted 2 sentences. Processing each sentence one by one to check for presence of right pair of named entity types; if so, will run the second pipeline ...
+Extracted annotations for 0 out of total 2 sentences
+set()
+Relations extracted from this website:0 (Overall: 6)
+URL ( 6 / 10): https://www.gatesnotes.com/
+Fetching text from url ...
+URL ( 7 / 10): https://www.forbes.com/sites/alexkonrad/2023/02/06/bill-gates-openai-microsoft-ai-hottest-topic-2023/
+Fetching text from url ...
+Trimming webpage content from 10482 to 10000 characters
+Webpage length (num characters): 10000
+Annotating the webpage using spacy...
+Extracted 118 sentences. Processing each sentence one by one to check for presence of right pair of named entity types; if so, will run the second pipeline ...
+Loading pre-trained spanBERT from ./pretrained_spanbert
+length: 1
+	 == Extracted Relation ==
+Input tokens: [' ', 'Bill', 'Gates', ',', 'Co', '-', 'chair', ',', 'Bill', '&', 'Melinda', 'Gates', 'Foundation']
+Output Confidence: 0.96217495 ; Subject: Bill Gates ;Object: Bill & Melinda Gates Foundation
+Adding to set of Extracted relations
+====================================
+Loading pre-trained spanBERT from ./pretrained_spanbert
+length: 1
+	 == Extracted Relation ==
+Input tokens: ['Bill', 'Gates', 'left', 'the', 'board', 'of', 'directors', 'of', 'Microsoft', ',']
+Output Confidence: 0.9753335 ; Subject: Bill Gates ;Object: Microsoft
+Adding to set of Extracted relations
+====================================
+Loading pre-trained spanBERT from ./pretrained_spanbert
+length: 6
+Processed 5 / 118 sentences
+Loading pre-trained spanBERT from ./pretrained_spanbert
+length: 1
+Loading pre-trained spanBERT from ./pretrained_spanbert
+length: 6
+	 == Extracted Relation ==
+Input tokens: ['like', 'Ilya', '[', 'Sutskever', ',', 'Brockmans', 'cofounder', 'and', 'chief', 'scientist', ']']
+Output Confidence: 0.9598709 ; Subject: Ilya ;Object: Brockmans
+Adding to set of Extracted relations
+====================================
+Loading pre-trained spanBERT from ./pretrained_spanbert
+length: 3
+Loading pre-trained spanBERT from ./pretrained_spanbert
+length: 1
+Loading pre-trained spanBERT from ./pretrained_spanbert
+length: 1
+Extracted annotations for 3 out of total 118 sentences
+{('Ilya', 'Brockmans', 0.9598709), ('Bill Gates', 'Bill & Melinda Gates Foundation', 0.96217495), ('Bill Gates', 'Microsoft', 0.9753335)}
+value: 0.9598709
+value: 0.96217495
+value: 0.9753335
+Relations extracted from this website:1 (Overall: 7)
+URL ( 8 / 10): https://www.wsj.com/articles/microsoft-directors-decided-bill-gates-needed-to-leave-board-due-to-prior-relationship-with-staffer-11621205803
+Fetching text from url ...
+URL ( 9 / 10): https://www.linkedin.com/in/williamhgates
+Fetching text from url ...
+URL ( 10 / 10): https://www.gatesnotes.com/Bio
+Fetching text from url ...
+No of tuple Extracted till now: 7
+
+========== Iteration: 0 - Query:ballmer microsoft ==========
+URL ( 1 / 10): https://en.wikipedia.org/wiki/Steve_Ballmer
+Fetching text from url ...
+Trimming webpage content from 22213 to 10000 characters
+Webpage length (num characters): 10000
+Annotating the webpage using spacy...
+Extracted 63 sentences. Processing each sentence one by one to check for presence of right pair of named entity types; if so, will run the second pipeline ...
+Loading pre-trained spanBERT from ./pretrained_spanbert
+length: 3
+	 == Extracted Relation ==
+Input tokens: [' ', 'Steven', 'Anthony', 'Ballmer', '(', '/blmr/', ';', 'March', '24', ',', '1956)[1', ']', 'is', 'an', 'American', 'businessman', 'and', 'investor', 'who', 'served', 'as', 'the', 'chief', 'executive', 'officer', 'of', 'Microsoft', 'from', '2000', 'to', '2014.[1', ']']
+Output Confidence: 0.9971697 ; Subject: Steven Anthony Ballmer ;Object: Microsoft
+Adding to set of Extracted relations
+====================================
+	 == Extracted Relation ==
+Input tokens: [' ', 'Steven', 'Anthony', 'Ballmer', '(', '/blmr/', ';', 'March', '24', ',', '1956)[1', ']', 'is', 'an', 'American', 'businessman', 'and', 'investor', 'who', 'served', 'as', 'the', 'chief', 'executive', 'officer', 'of', 'Microsoft', 'from', '2000', 'to', '2014.[1', ']']
+Output Confidence: 0.9968559 ; Subject: Steven Anthony Ballmer ;Object: 2014.[1
+Adding to set of Extracted relations
+====================================
+Loading pre-trained spanBERT from ./pretrained_spanbert
+length: 13
+	 == Extracted Relation ==
+Input tokens: ['Ballmer', 'was', 'hired', 'by', 'Bill', 'Gates', 'at', 'Microsoft', 'in', '1980', ',']
+Output Confidence: 0.9848523 ; Subject: Ballmer ;Object: Microsoft
+Adding to set of Extracted relations
+====================================
+	 == Extracted Relation ==
+Input tokens: ['Ballmer', 'was', 'hired', 'by', 'Bill', 'Gates', 'at', 'Microsoft', 'in', '1980', ',', 'and', 'subsequently', 'left', 'the', 'MBA', 'program', 'at', 'Stanford', 'University', '.']
+Output Confidence: 0.98013747 ; Subject: Ballmer ;Object: MBA
+Adding to set of Extracted relations
+====================================
+	 == Extracted Relation ==
+Input tokens: ['Ballmer', 'was', 'hired', 'by', 'Bill', 'Gates', 'at', 'Microsoft', 'in', '1980', ',', 'and', 'subsequently', 'left', 'the', 'MBA', 'program', 'at', 'Stanford', 'University', '.']
+Output Confidence: 0.8959985 ; Subject: Ballmer ;Object: Stanford University
+Adding to set of Extracted relations
+====================================
+	 == Extracted Relation ==
+Input tokens: ['Ballmer', 'was', 'hired', 'by', 'Bill', 'Gates', 'at', 'Microsoft', 'in', '1980', ',']
+Output Confidence: 0.7466049 ; Subject: Bill Gates ;Object: Microsoft
+Adding to set of Extracted relations
+====================================
+	 == Extracted Relation ==
+Input tokens: ['Ballmer', 'was', 'hired', 'by', 'Bill', 'Gates', 'at', 'Microsoft', 'in', '1980', ',', 'and', 'subsequently', 'left', 'the', 'MBA', 'program', 'at', 'Stanford', 'University', '.']
+Output Confidence: 0.7255553 ; Subject: Bill Gates ;Object: Stanford University
+Adding to set of Extracted relations
+====================================
+Loading pre-trained spanBERT from ./pretrained_spanbert
+length: 14
+	 == Extracted Relation ==
+Input tokens: ['and', 'replaced', 'Gates', 'as', 'CEO', 'on', 'January', '13', ',', '2000.[3][4', ']', 'On', 'February', '4', ',', '2014', ',', 'Ballmer', 'retired', 'as', 'CEO', 'and', 'was', 'replaced', 'by', 'Satya', 'Nadella', ';', 'Ballmer', 'remained', 'on', 'Microsoft', "'s", 'Board', 'of', 'Directors', 'until', 'August', '19', ',']
+Output Confidence: 0.99656314 ; Subject: Gates ;Object: Microsoft
+Adding to set of Extracted relations
+====================================
+	 == Extracted Relation ==
+Input tokens: ['and', 'replaced', 'Gates', 'as', 'CEO', 'on', 'January', '13', ',', '2000.[3][4', ']', 'On', 'February', '4', ',', '2014', ',', 'Ballmer', 'retired', 'as', 'CEO', 'and', 'was', 'replaced', 'by', 'Satya', 'Nadella', ';', 'Ballmer', 'remained', 'on', 'Microsoft', "'s", 'Board', 'of', 'Directors', 'until', 'August', '19', ',']
+Output Confidence: 0.99490327 ; Subject: Gates ;Object: Board of Directors
+Adding to set of Extracted relations
+====================================
+	 == Extracted Relation ==
+Input tokens: ['Ballmer', 'retired', 'as', 'CEO', 'and', 'was', 'replaced', 'by', 'Satya', 'Nadella', ';', 'Ballmer', 'remained', 'on', 'Microsoft', "'s", 'Board', 'of', 'Directors', 'until', 'August', '19', ',']
+Output Confidence: 0.9972429 ; Subject: Ballmer ;Object: Microsoft
+Adding to set of Extracted relations
+====================================
+	 == Extracted Relation ==
+Input tokens: ['Ballmer', 'retired', 'as', 'CEO', 'and', 'was', 'replaced', 'by', 'Satya', 'Nadella', ';', 'Ballmer', 'remained', 'on', 'Microsoft', "'s", 'Board', 'of', 'Directors', 'until', 'August', '19', ',']
+Output Confidence: 0.99688727 ; Subject: Ballmer ;Object: Board of Directors
+Adding to set of Extracted relations
+====================================
+	 == Extracted Relation ==
+Input tokens: ['Ballmer', 'retired', 'as', 'CEO', 'and', 'was', 'replaced', 'by', 'Satya', 'Nadella', ';', 'Ballmer', 'remained', 'on', 'Microsoft', "'s", 'Board', 'of', 'Directors', 'until', 'August', '19', ',']
+Output Confidence: 0.99644244 ; Subject: Satya Nadella ;Object: Microsoft
+Adding to set of Extracted relations
+====================================
+	 == Extracted Relation ==
+Input tokens: ['Ballmer', 'retired', 'as', 'CEO', 'and', 'was', 'replaced', 'by', 'Satya', 'Nadella', ';', 'Ballmer', 'remained', 'on', 'Microsoft', "'s", 'Board', 'of', 'Directors', 'until', 'August', '19', ',']
+Output Confidence: 0.995599 ; Subject: Satya Nadella ;Object: Board of Directors
+Adding to set of Extracted relations
+====================================
+	 == Extracted Relation ==
+Input tokens: ['Ballmer', 'remained', 'on', 'Microsoft', "'s", 'Board', 'of', 'Directors', 'until', 'August', '19', ',']
+Output Confidence: 0.99510914 ; Subject: Ballmer ;Object: Microsoft
+Adding to set of Extracted relations
+====================================
+	 == Extracted Relation ==
+Input tokens: ['Ballmer', 'remained', 'on', 'Microsoft', "'s", 'Board', 'of', 'Directors', 'until', 'August', '19', ',']
+Output Confidence: 0.7025741 ; Subject: Ballmer ;Object: Board of Directors
+Adding to set of Extracted relations
+====================================
+Loading pre-trained spanBERT from ./pretrained_spanbert
+length: 14
+	 == Extracted Relation ==
+Input tokens: ['Ballmer', 'was', 'born', 'in', 'Detroit', ',', 'Michigan', ';', 'he', 'is', 'the', 'son', 'of', 'Beatrice', 'Dvorkin', 'and', 'Frederic', 'Henry', '(', 'Fritz', 'Hans', ')', 'Ballmer', ',', 'a', 'manager', 'at', 'the', 'Ford', 'Motor', 'Company', '.']
+Output Confidence: 0.97858053 ; Subject: Ballmer ;Object: the Ford Motor Company
+Adding to set of Extracted relations
+====================================
+	 == Extracted Relation ==
+Input tokens: ['he', 'is', 'the', 'son', 'of', 'Beatrice', 'Dvorkin', 'and', 'Frederic', 'Henry', '(', 'Fritz', 'Hans', ')', 'Ballmer', ',', 'a', 'manager', 'at', 'the', 'Ford', 'Motor', 'Company', '.']
+Output Confidence: 0.68146485 ; Subject: Beatrice Dvorkin ;Object: the Ford Motor Company
+Adding to set of Extracted relations
+====================================
+	 == Extracted Relation ==
+Input tokens: ['he', 'is', 'the', 'son', 'of', 'Beatrice', 'Dvorkin', 'and', 'Frederic', 'Henry', '(', 'Fritz', 'Hans', ')', 'Ballmer', ',', 'a', 'manager', 'at', 'the', 'Ford', 'Motor', 'Company', '.']
+Output Confidence: 0.9866178 ; Subject: Frederic Henry ;Object: the Ford Motor Company
+Adding to set of Extracted relations
+====================================
+	 == Extracted Relation ==
+Input tokens: ['Fritz', 'Hans', ')', 'Ballmer', ',', 'a', 'manager', 'at', 'the', 'Ford', 'Motor', 'Company', '.']
+Output Confidence: 0.9951566 ; Subject: Fritz Hans ;Object: the Ford Motor Company
+Adding to set of Extracted relations
+====================================
+	 == Extracted Relation ==
+Input tokens: ['Ballmer', ',', 'a', 'manager', 'at', 'the', 'Ford', 'Motor', 'Company', '.']
+Output Confidence: 0.9967124 ; Subject: Ballmer ;Object: the Ford Motor Company
+Adding to set of Extracted relations
+====================================
+Loading pre-trained spanBERT from ./pretrained_spanbert
+length: 1
+Loading pre-trained spanBERT from ./pretrained_spanbert
+length: 14
+	 == Extracted Relation ==
+Input tokens: ['Ballmer', 'attended', 'Harvard', 'University', ',', 'where', 'he', 'was', 'a', 'manager', 'for', 'the', 'Harvard', 'Crimson', 'football', 'team', 'and', 'a', 'member', 'of', 'the', 'Fox', 'Club', ',']
+Output Confidence: 0.99451905 ; Subject: Ballmer ;Object: Harvard
+Adding to set of Extracted relations
+====================================
+	 == Extracted Relation ==
+Input tokens: ['Ballmer', 'attended', 'Harvard', 'University', ',', 'where', 'he', 'was', 'a', 'manager', 'for', 'the', 'Harvard', 'Crimson', 'football', 'team', 'and', 'a', 'member', 'of', 'the', 'Fox', 'Club', ',']
+Output Confidence: 0.99568915 ; Subject: Ballmer ;Object: the Fox Club
+Adding to set of Extracted relations
+====================================
+	 == Extracted Relation ==
+Input tokens: ['Ballmer', 'attended', 'Harvard', 'University', ',', 'where', 'he', 'was', 'a', 'manager', 'for', 'the', 'Harvard', 'Crimson', 'football', 'team', 'and', 'a', 'member', 'of', 'the', 'Fox', 'Club', ',', 'worked', 'on', 'The', 'Harvard', 'Crimson', 'newspaper', 'as', 'well', 'as', 'the', 'Harvard', 'Advocate', ',']
+Output Confidence: 0.9938952 ; Subject: Ballmer ;Object: Harvard
+Adding to set of Extracted relations
+====================================
+	 == Extracted Relation ==
+Input tokens: ['Ballmer', 'attended', 'Harvard', 'University', ',', 'where', 'he', 'was', 'a', 'manager', 'for', 'the', 'Harvard', 'Crimson', 'football', 'team', 'and', 'a', 'member', 'of', 'the', 'Fox', 'Club', ',', 'worked', 'on', 'The', 'Harvard', 'Crimson', 'newspaper', 'as', 'well', 'as', 'the', 'Harvard', 'Advocate', ',']
+Output Confidence: 0.9945845 ; Subject: Ballmer ;Object: Harvard
+Adding to set of Extracted relations
+====================================
+Processed 15 / 63 sentences
+Loading pre-trained spanBERT from ./pretrained_spanbert
+length: 3
+Loading pre-trained spanBERT from ./pretrained_spanbert
+length: 3
+	 == Extracted Relation ==
+Input tokens: ['Ballmer', 'worked', 'as', 'an', 'assistant', 'product', 'manager', 'at', 'Procter', '&', 'Gamble', 'for', 'two', 'years', ',']
+Output Confidence: 0.9963759 ; Subject: Ballmer ;Object: Procter & Gamble
+Adding to set of Extracted relations
+====================================
+Loading pre-trained spanBERT from ./pretrained_spanbert
+length: 2
+	 == Extracted Relation ==
+Input tokens: ['Ballmer', 'joined', 'Microsoft', 'on', 'June', '11', ',', '1980', ',', 'and', 'became', 'Microsoft', "'s", '30th', 'employee', 'and', 'the', 'first', 'business', 'manager', 'hired', 'by', 'Gates.[21', ']']
+Output Confidence: 0.99754256 ; Subject: Ballmer ;Object: Microsoft
+Adding to set of Extracted relations
+====================================
+Processed 20 / 63 sentences
+Loading pre-trained spanBERT from ./pretrained_spanbert
+length: 1
+	 == Extracted Relation ==
+Input tokens: ['Ballmer', 'headed', 'several', 'Microsoft', 'divisions', ',']
+Output Confidence: 0.9936971 ; Subject: Ballmer ;Object: Microsoft
+Adding to set of Extracted relations
+====================================
+Processed 25 / 63 sentences
+Loading pre-trained spanBERT from ./pretrained_spanbert
+length: 1
+	 == Extracted Relation ==
+Input tokens: ['Ballmer', 'led', 'Microsoft', "'s", 'development', 'of', 'the', '.NET', 'Framework', '.']
+Output Confidence: 0.6553202 ; Subject: Ballmer ;Object: Microsoft
+Adding to set of Extracted relations
+====================================
+Loading pre-trained spanBERT from ./pretrained_spanbert
+length: 3
+	 == Extracted Relation ==
+Input tokens: ['Ballmer', 'was', 'then', 'promoted', 'to', 'President', 'of', 'Microsoft', ',']
+Output Confidence: 0.99175435 ; Subject: Ballmer ;Object: Microsoft
+Adding to set of Extracted relations
+====================================
+Loading pre-trained spanBERT from ./pretrained_spanbert
+length: 1
+Processed 30 / 63 sentences
+Loading pre-trained spanBERT from ./pretrained_spanbert
+length: 1
+Loading pre-trained spanBERT from ./pretrained_spanbert
+length: 6
+	 == Extracted Relation ==
+Input tokens: ['he', 'recruited', 'B.', 'Kevin', 'Turner', 'from', 'Walmart', ',', 'who', 'was', 'the', 'President', 'and', 'CEO', 'of', 'Sam', "'s", 'Club', ',']
+Output Confidence: 0.9916532 ; Subject: B. Kevin Turner ;Object: Sam's Club
+Adding to set of Extracted relations
+====================================
+	 == Extracted Relation ==
+Input tokens: ['he', 'recruited', 'B.', 'Kevin', 'Turner', 'from', 'Walmart', ',', 'who', 'was', 'the', 'President', 'and', 'CEO', 'of', 'Sam', "'s", 'Club', ',', 'to', 'become', 'Microsoft', "'s", 'Chief', 'Operating', 'Officer.[28', ']']
+Output Confidence: 0.99669814 ; Subject: B. Kevin Turner ;Object: Microsoft
+Adding to set of Extracted relations
+====================================
+	 == Extracted Relation ==
+Input tokens: ['he', 'recruited', 'B.', 'Kevin', 'Turner', 'from', 'Walmart', ',', 'who', 'was', 'the', 'President', 'and', 'CEO', 'of', 'Sam', "'s", 'Club', ',', 'to', 'become', 'Microsoft', "'s", 'Chief', 'Operating', 'Officer.[28', ']']
+Output Confidence: 0.8775796 ; Subject: Walmart ;Object: Microsoft
+Adding to set of Extracted relations
+====================================
+Loading pre-trained spanBERT from ./pretrained_spanbert
+length: 4
+	 == Extracted Relation ==
+Input tokens: ['Turner', 'was', 'hired', 'at', 'Microsoft', 'to', 'lead', 'the', 'company', "'s", 'sales', ',']
+Output Confidence: 0.92568886 ; Subject: Turner ;Object: Microsoft
+Adding to set of Extracted relations
+====================================
+Loading pre-trained spanBERT from ./pretrained_spanbert
+length: 3
+Loading pre-trained spanBERT from ./pretrained_spanbert
+length: 1
+	 == Extracted Relation ==
+Input tokens: ['Under', 'Ballmer', "'s", 'tenure', 'as', 'CEO', ',', 'Microsoft', "'s", 'share', 'price', 'stagnated.[30', ']']
+Output Confidence: 0.99207413 ; Subject: Ballmer ;Object: Microsoft
+Adding to set of Extracted relations
+====================================
+Processed 40 / 63 sentences
+Loading pre-trained spanBERT from ./pretrained_spanbert
+length: 14
+	 == Extracted Relation ==
+Input tokens: ['Ballmer', "'s", 'tenure', 'at', 'Microsoft', 'surpassed', 'the', 'performances', 'of', 'other', 'well', '-', 'known', 'CEOs', 'such', 'as', 'General', 'Electric', "'s", 'Jack', 'Welch', '(', '11.2', '%', ')', 'and', 'IBM', "'s", 'Louis', 'V.', 'Gerstner', 'Jr.', '(']
+Output Confidence: 0.9657078 ; Subject: Ballmer ;Object: IBM
+Adding to set of Extracted relations
+====================================
+	 == Extracted Relation ==
+Input tokens: ['known', 'CEOs', 'such', 'as', 'General', 'Electric', "'s", 'Jack', 'Welch', '(', '11.2', '%', ')', 'and', 'IBM', "'s", 'Louis', 'V.', 'Gerstner', 'Jr.', '(']
+Output Confidence: 0.99516517 ; Subject: Jack Welch ;Object: IBM
+Adding to set of Extracted relations
+====================================
+Processed 45 / 63 sentences
+Loading pre-trained spanBERT from ./pretrained_spanbert
+length: 15
+Loading pre-trained spanBERT from ./pretrained_spanbert
+length: 2
+Loading pre-trained spanBERT from ./pretrained_spanbert
+length: 8
+Loading pre-trained spanBERT from ./pretrained_spanbert
+length: 3
+	 == Extracted Relation ==
+Input tokens: ['hedge', 'fund', 'manager', 'David', 'Einhorn', 'called', 'on', 'Ballmer', 'to', 'step', 'down', 'as', 'CEO', 'of', 'Microsoft', '.']
+Output Confidence: 0.9920883 ; Subject: David Einhorn ;Object: Microsoft
+Adding to set of Extracted relations
+====================================
+	 == Extracted Relation ==
+Input tokens: ['hedge', 'fund', 'manager', 'David', 'Einhorn', 'called', 'on', 'Ballmer', 'to', 'step', 'down', 'as', 'CEO', 'of', 'Microsoft', '.']
+Output Confidence: 0.9684322 ; Subject: Ballmer ;Object: Microsoft
+Adding to set of Extracted relations
+====================================
+Loading pre-trained spanBERT from ./pretrained_spanbert
+length: 1
+Loading pre-trained spanBERT from ./pretrained_spanbert
+length: 5
+Loading pre-trained spanBERT from ./pretrained_spanbert
+length: 13
+	 == Extracted Relation ==
+Input tokens: ['and', 'for', 'the', 'first', 'time', 'since', 'Bill', 'Gates', 'resigned', 'from', 'day', '-', 'to', '-', 'day', 'management', 'at', 'Microsoft', ',']
+Output Confidence: 0.63682 ; Subject: Bill Gates ;Object: Microsoft
+Adding to set of Extracted relations
+====================================
+Processed 55 / 63 sentences
+Loading pre-trained spanBERT from ./pretrained_spanbert
+length: 1
+Processed 60 / 63 sentences
+Loading pre-trained spanBERT from ./pretrained_spanbert
+length: 8
+	 == Extracted Relation ==
+Input tokens: ['B.', 'Kevin', 'Turner', ',', 'Microsoft', "'s", 'Chief', 'Operating', 'Officer', '(']
+Output Confidence: 0.98175025 ; Subject: B. Kevin Turner ;Object: Microsoft
+Adding to set of Extracted relations
+====================================
+Extracted annotations for 40 out of total 63 sentences
+{('Ballmer', 'Harvard', 0.99451905), ('Ballmer', 'Harvard', 0.9938952), ('Ballmer', 'Harvard', 0.9945845), ('Fritz Hans', 'the Ford Motor Company', 0.9951566), ('David Einhorn', 'Microsoft', 0.9920883), ('Turner', 'Microsoft', 0.92568886), ('Jack Welch', 'IBM', 0.99516517), ('Beatrice Dvorkin', 'the Ford Motor Company', 0.68146485), ('Ballmer', 'Procter & Gamble', 0.9963759), ('Ballmer', 'the Fox Club', 0.99568915), ('Ballmer', 'Board of Directors', 0.7025741), ('Gates', 'Microsoft', 0.99656314), ('Steven Anthony Ballmer', '2014.[1', 0.9968559), ('Ballmer', 'Stanford University', 0.8959985), ('Frederic Henry', 'the Ford Motor Company', 0.9866178), ('Gates', 'Board of Directors', 0.99490327), ('Ballmer', 'Microsoft', 0.9684322), ('Satya Nadella', 'Microsoft', 0.99644244), ('B. Kevin Turner', "Sam's Club", 0.9916532), ('Ballmer', 'IBM', 0.9657078), ('Ballmer', 'Microsoft', 0.9848523), ('Steven Anthony Ballmer', 'Microsoft', 0.9971697), ('Ballmer', 'Microsoft', 0.9972429), ('Satya Nadella', 'Board of Directors', 0.995599), ('Ballmer', 'Microsoft', 0.99510914), ('Ballmer', 'Microsoft', 0.99754256), ('Ballmer', 'Microsoft', 0.9936971), ('Ballmer', 'Microsoft', 0.6553202), ('Ballmer', 'Microsoft', 0.99175435), ('Ballmer', 'Microsoft', 0.99207413), ('Ballmer', 'the Ford Motor Company', 0.97858053), ('Ballmer', 'the Ford Motor Company', 0.9967124), ('B. Kevin Turner', 'Microsoft', 0.99669814), ('B. Kevin Turner', 'Microsoft', 0.98175025), ('Bill Gates', 'Microsoft', 0.7466049), ('Walmart', 'Microsoft', 0.8775796), ('Bill Gates', 'Microsoft', 0.63682), ('Bill Gates', 'Stanford University', 0.7255553), ('Ballmer', 'MBA', 0.98013747), ('Ballmer', 'Board of Directors', 0.99688727)}
+value: 0.99451905
+value: 0.9938952
+value: 0.9945845
+value: 0.9951566
+value: 0.9920883
+value: 0.92568886
+value: 0.99516517
+value: 0.68146485
+value: 0.9963759
+value: 0.99568915
+value: 0.7025741
+value: 0.99656314
+value: 0.9968559
+value: 0.8959985
+value: 0.9866178
+value: 0.99490327
+value: 0.9684322
+value: 0.99644244
+value: 0.9916532
+value: 0.9657078
+value: 0.9848523
+value: 0.9971697
+value: 0.9972429
+value: 0.995599
+value: 0.99510914
+value: 0.99754256
+value: 0.9936971
+value: 0.6553202
+value: 0.99175435
+value: 0.99207413
+value: 0.97858053
+value: 0.9967124
+value: 0.99669814
+value: 0.98175025
+value: 0.7466049
+value: 0.8775796
+value: 0.63682
+value: 0.7255553
+value: 0.98013747
+value: 0.99688727
+Relations extracted from this website:15 (Overall: 16)
+No of tuple Extracted till now: 16
+================== ALL RELATIONS for employee_of( 16 ) =================
+Confidence: 0.99754256	 | Subject: ballmer	 | Object: microsoft
+Confidence: 0.9971697	 | Subject: steven anthony ballmer	 | Object: microsoft
+Confidence: 0.99669814	 | Subject: b. kevin turner	 | Object: microsoft
+Confidence: 0.99656314	 | Subject: gates	 | Object: microsoft
+Confidence: 0.99644244	 | Subject: satya nadella	 | Object: microsoft
+Confidence: 0.99516517	 | Subject: jack welch	 | Object: ibm
+Confidence: 0.9951566	 | Subject: fritz hans	 | Object: the ford motor company
+Confidence: 0.9920883	 | Subject: david einhorn	 | Object: microsoft
+Confidence: 0.99106133	 | Subject: william henry gates iii	 | Object: microsoft corporation
+Confidence: 0.9908213	 | Subject: jeff bezos	 | Object: gates
+Confidence: 0.98816776	 | Subject: allen	 | Object: microsoft
+Confidence: 0.98681915	 | Subject: bill gates	 | Object: microsoft corporation
+Confidence: 0.9866178	 | Subject: frederic henry	 | Object: the ford motor company
+Confidence: 0.9598709	 | Subject: ilya	 | Object: brockmans
+Confidence: 0.92568886	 | Subject: turner	 | Object: microsoft
+Confidence: 0.8775796	 | Subject: walmart	 | Object: microsoft
